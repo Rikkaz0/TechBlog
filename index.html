@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Blog Công Nghệ</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Trang Chủ</a></li>
+                    <li><a href="#about">Về Chúng Tôi</a></li>
+                    <li><a href="#topics">Topics</a></li>
+                    <li><a href="#posts">Bài Đăng</a></li>
+                    <li><a href="#contact">Liên Hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Chào mừng đến với Blog Công Nghệ</h2>
+            <p>Khám phá những bài viết mới nhất về lập trình, công nghệ và xu hướng.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Về Chúng Tôi</h2>
+            <p>Lê Nguyên Phúc - 106210226</p>
+            <p>Nguyễn Phạm Nguyên Huỳnh - 106210218</p>
+            <p>Lê Tấn Duy - 106210215.</p>
+        </div>
+    </section>
+
+
+    <!-- Main Content -->
+    <main>
+        <section id="posts">
+            <div class="container">
+                <h2>Bài Đăng Gần Đây</h2>
+                <div class="post">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240308162931/Difference-Between-Machine-Learning-and-Artificial-Intelligence.webp" alt="Tech Image">
+                    <h3>Tìm hiểu về AI và Machine Learning</h3>
+                    <p class="short-desc">Tác giả: Lê Nguyên Phúc</p>
+                    <button onclick="toggleDetail('detail-ai')">Xem Thêm</button>
+                    <div class="post-detail" id="detail-ai">
+                        <p>AI (Artificial Intelligence) là lĩnh vực khoa học máy tính tạo ra các hệ thống thông minh có khả năng thực hiện các nhiệm vụ yêu cầu trí tuệ con người, như nhận thức, học hỏi, và ra quyết định. Machine Learning (Học máy) là một phân nhánh của AI, nơi các thuật toán giúp máy tính học từ dữ liệu mà không cần lập trình trực tiếp. Qua quá trình học, các hệ thống có thể cải thiện hiệu suất của mình dựa trên dữ liệu mới, từ đó tự động hóa và nâng cao các quy trình xử lý thông tin.</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="https://kama-software.com/wp-content/uploads/2022/11/cac-ky-nang-cua-mot-python-developer.jpg" alt="Tech Image">
+                    <h3>Làm quen với Python</h3>
+                    <p class="short-desc">Tác giả: Lê Nguyên Phúc</p>
+                    <button onclick="toggleDetail('detail-python')">Xem Thêm</button>
+                    <div class="post-detail" id="detail-python">
+                        <p>Làm quen với Python là bước đầu trong hành trình lập trình với một ngôn ngữ dễ học và mạnh mẽ. Python có cú pháp đơn giản, dễ đọc, giúp người mới nhanh chóng hiểu và viết mã. Với cộng đồng lớn và tài liệu phong phú, Python hỗ trợ nhiều lĩnh vực từ phát triển web, phân tích dữ liệu, đến trí tuệ nhân tạo. Để bắt đầu, bạn chỉ cần cài đặt Python, chọn một môi trường phát triển như VS Code, và thử viết các chương trình cơ bản như in ra dòng chữ hoặc tính toán đơn giản.</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="https://imic.edu.vn/Contents/images/news/khoa-hoc-lap-trinh-web-lap-trinh-nhung-embedded-voi-c.jpg" alt="Tech Image">
+                    <h3>Lập trình nhúng là gì?</h3>
+                    <p class="short-desc">Tác giả: Lê Tấn Duy</p>
+                    <button onclick="toggleDetail('detail-webdev')">Xem Thêm</button>
+                    <div class="post-detail" id="detail-webdev">
+                        <p>Lập trình nhúng (Embedded Programming) là việc phát triển phần mềm cho các thiết bị điện tử có tài nguyên hạn chế, như vi điều khiển (microcontroller), cảm biến, hoặc các hệ thống nhúng. Phần mềm nhúng thường được tối ưu hóa để chạy hiệu quả trên phần cứng với bộ nhớ và sức mạnh tính toán hạn chế. Lập trình nhúng đóng vai trò quan trọng trong các thiết bị như điện thoại thông minh, hệ thống điều khiển tự động, thiết bị IoT, và nhiều sản phẩm công nghệ khác, nơi tính ổn định và hiệu suất là yếu tố then chốt.</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="https://huongnghiepsongan.com/wp-content/uploads/2020/08/Ky%CC%83-su%CC%9B-La%CC%A3%CC%82p-Tri%CC%80nh-Nhu%CC%81ng.jpg" alt="Tech Image">
+                    <h3>Để trở thành kỹ sư lập trình nhúng cần gì?</h3>
+                    <p class="short-desc">Tác giả: Nguyễn Phạm Nguyên Huỳnh</p>
+                    <button onclick="toggleDetail('detail-hardware')">Xem Thêm</button>
+                    <div class="post-detail" id="detail-hardware">
+                        <p>Để trở thành kỹ sư lập trình nhúng, bạn cần có kiến thức vững vàng về lập trình C/C++ và hiểu rõ về cấu trúc dữ liệu và thuật toán. Kỹ năng về phần cứng, như đọc sơ đồ mạch và làm việc với vi điều khiển, vi xử lý là cần thiết. Kiến thức về hệ điều hành thời gian thực (RTOS) và các giao thức truyền thông như UART, I2C, và SPI cũng quan trọng. Ngoài ra, bạn cần kỹ năng giải quyết vấn đề, khả năng tối ưu hóa mã cho tài nguyên hạn chế và sự kiên nhẫn trong quá trình phát triển và kiểm thử phần mềm trên các thiết bị nhúng.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Liên Hệ Với Chúng Tôi</h2>
+            <p>Nếu bạn có bất kỳ câu hỏi hoặc phản hồi nào, hãy liên hệ với chúng tôi. Chúng tôi luôn vui mừng khi được lắng nghe phản hồi từ bạn.</p>
+            <form action="#" method="post">
+                <label for="name">Tên:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Lời Nhắn:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Gửi Lời Nhắn</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tech Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
